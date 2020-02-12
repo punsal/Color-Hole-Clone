@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Color-Hole-Clone" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Demigiant" t="Include">
+          <e p="DemiLib" t="Include">
+            <e p="Core" t="Include">
+              <e p="DemiLib.xml" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="DemiEditor.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="DOTween" t="Include">
+            <e p="Modules" t="Include">
+              <e p="DOTweenModuleAudio.cs" t="Include" />
+              <e p="DOTweenModulePhysics.cs" t="Include" />
+              <e p="DOTweenModulePhysics2D.cs" t="Include" />
+              <e p="DOTweenModuleSprite.cs" t="Include" />
+              <e p="DOTweenModuleUI.cs" t="Include" />
+              <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+              <e p="DOTweenModuleUtils.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+          </e>
+          <e p="DOTweenPro" t="Include">
+            <e p="DOTweenAnimation.cs" t="Include" />
+            <e p="DOTweenProShortcuts.cs" t="Include" />
+            <e p="DOTweenTextMeshPro.cs" t="Include" />
+            <e p="DOTweenTk2d.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="DOTweenAnimationInspector.cs" t="Include" />
+              <e p="DOTweenPreviewManager.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+          </e>
+          <e p="readme_DOTweenPro.txt" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="ChangeBallLayer.cs" t="Include" />
+          <e p="EventArguments" t="Include">
+            <e p="GameEventType.cs" t="Include" />
+            <e p="SwipeEventArgs.cs" t="Include" />
+          </e>
+          <e p="Manager" t="Include">
+            <e p="GameManager.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Depth Mask.shader" t="Include" />
+            <e p="Hole.shader" t="Include" />
+            <e p="Item.shader" t="Include" />
+          </e>
+          <e p="Utilities" t="Include">
+            <e p="Behaviour" t="Include">
+              <e p="Camera" t="Include">
+                <e p="CameraSmoothFollow.cs" t="Include" />
+                <e p="CameraTransformController.cs" t="Include" />
+                <e p="Data" t="Include">
+                  <e p="CameraTransformData.cs" t="Include" />
+                  <e p="CameraTransformStationData.cs" t="Include" />
+                </e>
+                <e p="Type" t="Include">
+                  <e p="CameraTransformDataType.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Custom Cursor" t="Include">
+                <e p="CustomCursorController.cs" t="Include" />
+              </e>
+              <e p="Follow" t="Include">
+                <e p="SimpleFollow.cs" t="Include" />
+              </e>
+              <e p="Player" t="Include">
+                <e p="Movement" t="Include">
+                  <e p="PlayerMovementController.cs" t="Include" />
+                  <e p="PlayerNavMeshMovementController.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Trigger" t="Include">
+                <e p="DisableTriggerController.cs" t="Include" />
+                <e p="TriggerController.cs" t="Include" />
+              </e>
+              <e p="VFX" t="Include">
+                <e p="VFXParticleController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Database" t="Include">
+              <e p="Database.cs" t="Include" />
+            </e>
+            <e p="Extensions" t="Include">
+              <e p="CameraExtension.cs" t="Include" />
+              <e p="CustomMath.cs" t="Include" />
+              <e p="VectorExtension.cs" t="Include" />
+            </e>
+            <e p="Manager" t="Include">
+              <e p="EventArgs" t="Include">
+                <e p="InputEventArgs.cs" t="Include" />
+              </e>
+              <e p="InputManager.cs" t="Include" />
+            </e>
+            <e p="Object Pooling System" t="Include">
+              <e p="ObjectPooler.cs" t="Include" />
+              <e p="ObjectPoolItem.cs" t="Include" />
+              <e p="PoolItemType.cs" t="Include" />
+            </e>
+            <e p="Publisher Subscriber System" t="Include">
+              <e p="PublisherSubscriber.cs" t="Include" />
+              <e p="Subscription.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="CanvasHelper.cs" t="Include" />
+              <e p="ScrollView" t="Include">
+                <e p="LayoutGroupType.cs" t="Include" />
+                <e p="ScrollViewContentController.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="Depth Mask.shader" t="Include" />
+          <e p="Hole.shader" t="Include" />
+          <e p="Item.shader" t="Include" />
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Color-Hole-Clone.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\Pamir\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Pamir\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Color-Hole-Clone.-398069487.00" t="ExcludeRecursive" />
+  </component>
+</project>
