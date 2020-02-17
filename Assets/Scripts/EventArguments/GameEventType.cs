@@ -4,9 +4,16 @@ namespace EventArguments
 {
     public enum GameEventType
     {
-        Grow,
-        UpdateNavMesh,
+        GameStart,
+        LevelStart,
+        ItemCollected,
+        EnemyCollected,
+        GroundCompleted,
+        CameraFollow,
         LevelComplete,
-        Restart
+        LevelFailed,
+        IncrementCollectibleItemCount,
+        LevelContinue,
+        LevelReload
     }
 }

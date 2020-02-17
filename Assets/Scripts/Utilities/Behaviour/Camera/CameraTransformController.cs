@@ -141,7 +141,7 @@ namespace Utilities.Behaviour.Camera
             ResetMainCameraTransform();
         }
 
-        private void ResetMainCameraTransform()
+        public void ResetMainCameraTransform()
         {
             var position = initialMainCameraTransform.position;
             var rotation = initialMainCameraTransform.eulerAngles;

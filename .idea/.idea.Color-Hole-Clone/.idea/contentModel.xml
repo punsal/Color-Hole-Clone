@@ -39,19 +39,94 @@
           </e>
           <e p="readme_DOTweenPro.txt" t="Include" />
         </e>
+        <e p="Editor" t="Include">
+          <e p="Collectible" t="Include">
+            <e p="Linker" t="Include">
+              <e p="LinkerPoolerEditor.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Fonts" t="Include">
+          <e p="Sriracha" t="Include">
+            <e p="OFL.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Polygon Arsenal" t="Include">
+          <e p="Demo" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="PolygonBeamScript.cs" t="Include" />
+              <e p="PolygonButtonScript.cs" t="Include" />
+              <e p="PolygonFireProjectile.cs" t="Include" />
+              <e p="PolygonLoopScript.cs" t="Include" />
+              <e p="PolygonOrbit.cs" t="Include" />
+              <e p="PolygonProjectileScript.cs" t="Include" />
+              <e p="PolygonSceneSelect.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Polygon Arsenal - Readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="PolygonLightFade.cs" t="Include" />
+            <e p="PolygonLightFlicker.cs" t="Include" />
+            <e p="PolygonRotation.cs" t="Include" />
+            <e p="PolygonSoundSpawn.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Standard" t="Include">
+              <e p="PolyLitSurface.shader" t="Include" />
+              <e p="PolyRimLightSelective.shader" t="Include" />
+              <e p="PolyRimLightSolid.shader" t="Include" />
+              <e p="PolyRimLightTransparent.shader" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
-          <e p="ChangeBallLayer.cs" t="Include" />
+          <e p="Collectible" t="Include">
+            <e p="CollectibleItem.cs" t="Include" />
+            <e p="Linker" t="Include">
+              <e p="LinkerPooler.cs" t="Include" />
+            </e>
+          </e>
           <e p="EventArguments" t="Include">
+            <e p="CollectedItemArgs.cs" t="Include" />
+            <e p="CollectibleItemArgs.cs" t="Include" />
             <e p="GameEventType.cs" t="Include" />
+            <e p="GroundCompletedEventArgs.cs" t="Include" />
             <e p="SwipeEventArgs.cs" t="Include" />
           </e>
           <e p="Manager" t="Include">
+            <e p="AdsManager.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
+            <e p="UIManager.cs" t="Include" />
+          </e>
+          <e p="Platform" t="Include">
+            <e p="Playground" t="Include">
+              <e p="GateController.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Player" t="Include">
+            <e p="Data" t="Include">
+              <e p="Persistent" t="Include">
+                <e p="PersistentPlayerData.cs" t="Include" />
+              </e>
+              <e p="PlayerData.cs" t="Include" />
+            </e>
+            <e p="PlayerController.cs" t="Include" />
+            <e p="Trigger" t="Include">
+              <e p="CollectTrigger.cs" t="Include" />
+              <e p="DisableTrigger.cs" t="Include" />
+              <e p="PlayerTrigger.cs" t="Include" />
+              <e p="PlayerTriggerExit.cs" t="Include" />
+            </e>
           </e>
           <e p="Shaders" t="Include">
             <e p="Depth Mask.shader" t="Include" />
             <e p="Hole.shader" t="Include" />
             <e p="Item.shader" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="Progression Bar" t="Include">
+              <e p="ProgressionBarFillerController.cs" t="Include" />
+            </e>
           </e>
           <e p="Utilities" t="Include">
             <e p="Behaviour" t="Include">
@@ -91,8 +166,12 @@
             </e>
             <e p="Extensions" t="Include">
               <e p="CameraExtension.cs" t="Include" />
+              <e p="ComponentExtension.cs" t="Include" />
               <e p="CustomMath.cs" t="Include" />
               <e p="VectorExtension.cs" t="Include" />
+            </e>
+            <e p="File System" t="Include">
+              <e p="SaveSystem.cs" t="Include" />
             </e>
             <e p="Manager" t="Include">
               <e p="EventArgs" t="Include">

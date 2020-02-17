@@ -25,5 +25,15 @@ namespace Utilities.Extensions
                     return new Vector3(vector2.x, vector2.y);
             }
         }
+
+        public static Vector3 SetX(this Vector3 vector3, float? x)
+        {
+            return new Vector3(x ?? vector3.x, vector3.y, vector3.z);
+        }
+
+        public static Vector3 SetY(this Vector3 vector3, float? y)
+        {
+            return new Vector3(vector3.x, y ?? vector3.y, vector3.z);
+        }
     }
 }

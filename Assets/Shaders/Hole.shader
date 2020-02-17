@@ -98,7 +98,7 @@
 			Blend [_SrcBlend] One
 			Fog { Color (0,0,0,0) } // in additive pass fog should be black
 			ZWrite Off
-			ZTest LEqual
+			ZTest Always
 
 			CGPROGRAM
 			#pragma target 3.0
@@ -130,7 +130,7 @@
 			Name "ShadowCaster"
 			Tags { "LightMode" = "ShadowCaster" }
 
-			ZWrite On ZTest LEqual
+			ZWrite On ZTest Always
 
 			CGPROGRAM
 			#pragma target 3.0
@@ -256,7 +256,7 @@
 			Blend [_SrcBlend] One
 			Fog { Color (0,0,0,0) } // in additive pass fog should be black
 			ZWrite Off
-			ZTest LEqual
+			ZTest Always
 			
 			CGPROGRAM
 			#pragma target 2.0
@@ -285,7 +285,7 @@
 			Name "ShadowCaster"
 			Tags { "LightMode" = "ShadowCaster" }
 			
-			ZWrite On ZTest LEqual
+			ZWrite On ZTest Always
 
 			CGPROGRAM
 			#pragma target 2.0

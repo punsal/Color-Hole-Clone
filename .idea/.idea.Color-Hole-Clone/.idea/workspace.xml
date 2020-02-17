@@ -7,19 +7,85 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Manager/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeBallLayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Trigger/CollectTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Trigger/PlayerTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Extensions/ComponentExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Manager/EventArgs/InputEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Behaviour/Camera/CameraTransformController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Extensions/VectorExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Manager/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Extensions/CameraExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/Collectible/Linker/LinkerPoolerEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/File System/SaveSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectible/CollectibleItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Progression Bar/ProgressionBarFillerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventArguments/CollectibleItemArgs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Behaviour/VFX/VFXParticleController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Behaviour/Trigger/DisableTriggerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Trigger/PlayerTriggerExit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Behaviour/Trigger/TriggerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Behaviour/Player/Movement/PlayerMovementController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventArguments/GroundCompletedEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Behaviour/Player/Movement/PlayerNavMeshMovementController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventArguments/GameEventType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectible/Linker/LinkerPooler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Trigger/DisableTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Platform/Playground/GateController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/AdsManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Data/Persistent/PersistentPlayerData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Data/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Behaviour/Camera/CameraTransformController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Manager/InputManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChangeBallLayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/DisableTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/CollectTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Behaviour/Player/Movement/PlayerNavMeshMovementController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Extensions/VectorExtension.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/FollowPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Extensions/CameraExtension.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Manager/InputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Movement/PlayerMovementController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Movement/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Progression Bar/ProgressionBarFillerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/Collectible/Linker/LinkerPoolerEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collectible/Linker/LinkerPooler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventArguments/CollectibleItemArgs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventArguments/GameEventType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Behaviour/Camera/CameraTransformController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/PlayerTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collectible/CollectibleItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Trigger/PlayerTriggerExit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Platform/Playground/GateController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/PlayerData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventArguments/GroundCompletedEventArgs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Data/Persistent/PersistentPlayerData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/File System/SaveSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Data/PlayerData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/AdsManager.cs" />
       </list>
     </option>
   </component>
@@ -79,6 +145,8 @@
       <updated>1581540470468</updated>
       <workItem from="1581540478061" duration="3032000" />
       <workItem from="1581547391030" duration="1255000" />
+      <workItem from="1581790064734" duration="29598000" />
+      <workItem from="1581890707132" duration="14084000" />
     </task>
     <servers />
   </component>
@@ -87,4 +155,18 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state x="227" y="244" key="RiderGenerateDialog" timestamp="1581871763781">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="227" y="244" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581871763781" />
+    <state x="616" y="250" key="run.anything.popup" timestamp="1581890033191">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1581890033191" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1581893444689">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1581893444689" />
+  </component>
 </project>

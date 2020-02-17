@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Test Hole Scene.unity
+    guid: f9c054a3a1576db49a1fe8f7072d86af
   m_configObjects: {}

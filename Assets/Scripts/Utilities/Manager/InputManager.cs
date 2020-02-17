@@ -7,7 +7,7 @@ namespace Utilities.Manager
 {
     public class InputManager : MonoBehaviour, IPointerDownHandler, IDragHandler
     {
-        [SerializeField] private Camera mainCamera;
+        [SerializeField] private UnityEngine.Camera mainCamera;
         [SerializeField] private LayerMask hitMask;
     
         private Vector3 initialPositionVector;
@@ -23,7 +23,7 @@ namespace Utilities.Manager
         {
             if (mainCamera == null)
             {
-                mainCamera = Camera.main;
+                mainCamera = UnityEngine.Camera.main;
             }
         }
 

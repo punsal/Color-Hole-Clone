@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Raycastable Object
   - Collectible
+  - Linker
   layers:
   - Default
   - TransparentFX
