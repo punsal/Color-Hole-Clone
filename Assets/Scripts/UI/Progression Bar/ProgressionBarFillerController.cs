@@ -1,6 +1,4 @@
-﻿using System;
-using EventArguments;
-using Manager;
+﻿using EventArguments;
 using UnityEngine;
 using UnityEngine.UI;
 using Utilities.Publisher_Subscriber_System;
@@ -11,7 +9,7 @@ namespace UI.Progression_Bar {
     {
         private Image imageFiller;
 
-        [SerializeField] private int groundIndex;
+        [SerializeField] private int groundIndex = 1;
 
         private Subscription<GameEventType> levelStartEventSubscription;
         private Subscription<CollectedItemArgs> collectedItemEventSubscription;

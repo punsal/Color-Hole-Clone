@@ -10,10 +10,12 @@ namespace Utilities.Behaviour.Camera
 {
     public class CameraTransformController : MonoBehaviour
     {
+        #pragma warning disable 649
         [SerializeField] private Transform mainCameraTransform;
         [SerializeField] private Transform initialMainCameraTransform;
-        [SerializeField] private float resetDuration;
-        [SerializeField] private CameraTransformData[] cameraTransformData;
+        #pragma warning restore 649
+        [SerializeField] private float resetDuration = 0f;
+        [SerializeField] private CameraTransformData[] cameraTransformData = new CameraTransformData[0];
 
         private Coroutine coroutine;
         

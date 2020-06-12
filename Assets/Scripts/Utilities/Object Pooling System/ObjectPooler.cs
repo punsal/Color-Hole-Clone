@@ -1,13 +1,15 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using Utilities.Object_Pooler_System;
 
-namespace Utilities.Object_Pooler_System
+namespace Utilities.Object_Pooling_System
 {
   public class ObjectPooler : MonoBehaviour {
 
+    // ReSharper disable once InconsistentNaming
     public static ObjectPooler SharedInstance;
     
-    [SerializeField] private List<ObjectPoolItem> itemsToPool;
+    [SerializeField] private List<ObjectPoolItem> itemsToPool = new List<ObjectPoolItem>();
     private List<GameObject> pooledObjects;
 
     void Awake() {

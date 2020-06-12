@@ -9,9 +9,9 @@ namespace Platform.Playground {
     {
         private Transform gateTransform;
         
-        [SerializeField] private float yPosition;
-        [SerializeField] private float duration;
-        [SerializeField] private GameEventType gameEventType;
+        [SerializeField] private float yPosition = 1f;
+        [SerializeField] private float duration = 1f;
+        [SerializeField] private GameEventType gameEventType = GameEventType.GroundCompleted;
 
         private float initialYPosition;
         

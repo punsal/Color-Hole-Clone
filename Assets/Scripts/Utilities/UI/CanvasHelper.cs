@@ -9,6 +9,7 @@ namespace Utilities.UI
     [RequireComponent(typeof(Canvas))]
     public class CanvasHelper : MonoBehaviour
     {
+        #pragma warning disable 649
         public static UnityEvent OnOrientationChange = new UnityEvent();
         public static UnityEvent OnResolutionChange = new UnityEvent();
         public static bool IsLandscape { get; private set; }

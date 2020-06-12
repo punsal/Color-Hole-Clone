@@ -15,13 +15,15 @@ namespace Manager {
 
         [SerializeField] private float wait = 2f;
 
+        #pragma warning disable 649
         [SerializeField] private Button buttonContinue;
+        #pragma warning restore 649
         
-        private Subscription<GameEventType> gameEventSubscription;
+        private readonly Subscription<GameEventType> gameEventSubscription = null;
 
         private void OnEnable()
         {
-            gameEventSubscription = PublisherSubscriber.Subscribe<GameEventType>(GameEventHandler);
+            //gameEventSubscription = PublisherSubscriber.Subscribe<GameEventType>(GameEventHandler);
         }
 
         private void OnDisable()

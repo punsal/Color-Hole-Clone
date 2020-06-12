@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using EventArguments;
 using UnityEngine;
 using Utilities.Object_Pooler_System;
+using Utilities.Object_Pooling_System;
 using Utilities.Publisher_Subscriber_System;
 
 namespace Collectible.Linker {
@@ -20,7 +21,7 @@ namespace Collectible.Linker {
     {
         [SerializeField] private List<CustomTransform> linkerTransforms;
 
-        [SerializeField] private string spawnTag;
+        [SerializeField] private string spawnTag = "Linker";
 
         private Subscription<GameEventType> levelStartEventSubscription;
 

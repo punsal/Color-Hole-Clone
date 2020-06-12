@@ -34,7 +34,7 @@ namespace Collectible {
         private bool isCollected;
 
         [SerializeField] private int groundIndex = 1;
-        [SerializeField] private CollectibleType collectibleType;
+        [SerializeField] private CollectibleType collectibleType = CollectibleType.Default;
         
         private Subscription<CollectibleItemArgs> collectibleItemEventSubscription;
         private Subscription<GroundCompletedEventArgs> groundCompletedEventSubscription;

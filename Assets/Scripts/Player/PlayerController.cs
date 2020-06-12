@@ -18,18 +18,20 @@ namespace Player
         private CustomTransform initialTransform;
 
         [Header("Reset Properties")]
-        [SerializeField] private float resetXPosition;
-        [SerializeField] private float resetDuration;
+        [SerializeField] private float resetXPosition = 0f;
+        [SerializeField] private float resetDuration = 2f;
 
         [Header("Destination")] 
+        #pragma warning disable 649
         [SerializeField] private Transform destinationTransform;
-        [SerializeField] private float destinationDuration;
+        #pragma warning restore 649
+        [SerializeField] private float destinationDuration = 2f;
         
         [Header("Trigger Game Event")]
-        [SerializeField] private GameEventType gameEventType;
+        [SerializeField] private GameEventType gameEventType = GameEventType.GroundCompleted;
 
         [Header("Camera")] 
-        [SerializeField] private UnityEvent cameraAction;
+        [SerializeField] private UnityEvent cameraAction = new UnityEvent();
         
         private Subscription<GameEventType> gameEventSubscription;
         private Subscription<GameEventType> resetEventSubscription;

@@ -9,8 +9,8 @@ namespace Utilities.UI.ScrollView
     {
         private RectTransform rectTransform;
         private LayoutGroup layoutGroup;
-        [SerializeField] private LayoutGroupType layoutGroupType;
-        [SerializeField] private int spacing;
+        [SerializeField] private LayoutGroupType layoutGroupType = LayoutGroupType.Horizontal;
+        [SerializeField] private int spacing = 0;
 
         private void Awake()
         {

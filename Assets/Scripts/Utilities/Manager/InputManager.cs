@@ -7,8 +7,10 @@ namespace Utilities.Manager
 {
     public class InputManager : MonoBehaviour, IPointerDownHandler, IDragHandler
     {
-        [SerializeField] private UnityEngine.Camera mainCamera;
+        [SerializeField] private Camera mainCamera;
+        #pragma warning disable 649
         [SerializeField] private LayerMask hitMask;
+        #pragma warning restore 649
     
         private Vector3 initialPositionVector;
         private Vector3 currentPositionVector;

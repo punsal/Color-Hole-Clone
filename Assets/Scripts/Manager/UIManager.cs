@@ -8,14 +8,20 @@ namespace Manager {
     public class UIManager : MonoBehaviour
     {
         [Header("UI Panels")]
+        #pragma warning disable 649
         [SerializeField] private GameObject panelLevelFailed;
+        #pragma warning restore 649
 
         [Header("Level Information")]
+        #pragma warning disable 649
         [SerializeField] private TextMeshProUGUI textCurrentLevel;
         [SerializeField] private TextMeshProUGUI textNextLevel;
+        #pragma warning restore 649
 
         [Header("Gold Information")] 
+        #pragma warning disable 649
         [SerializeField] private TextMeshProUGUI textGold;
+        #pragma warning restore 649
         
         private Subscription<GameEventType> gameEventSubscription;
         private Subscription<PlayerData> playerDataSubscription;

@@ -8,8 +8,8 @@ namespace Manager {
     public class GameManager : MonoBehaviour
     {
         [Header("Platform Properties")]
-        [SerializeField] private Transform[] ground1Transforms;
-        [SerializeField] private Transform[] ground2Transforms;
+        [SerializeField] private Transform[] ground1Transforms = new Transform[0];
+        [SerializeField] private Transform[] ground2Transforms = new Transform[0];
         
         [Header("Platform Information")]
         [SerializeField] private Transform currentGround1Transform;
@@ -23,7 +23,7 @@ namespace Manager {
         [SerializeField] private int totalItemCount;
         [SerializeField] private int currentGroundIndex;
 
-        [SerializeField] private UnityEvent onGameStartEvent;
+        [SerializeField] private UnityEvent onGameStartEvent = new UnityEvent();
         
         private Subscription<GameEventType> gameEventSubscription;
 

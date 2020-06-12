@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Color-Hole-Clone" t="IncludeRecursive">
+    <e p="C:\Users\Pamir\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Pamir\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_Color-Hole-Clone.-770086252.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\Color-Hole-Clone" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -236,7 +238,5 @@
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\Pamir\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Pamir\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Color-Hole-Clone.-398069487.00" t="ExcludeRecursive" />
   </component>
 </project>
