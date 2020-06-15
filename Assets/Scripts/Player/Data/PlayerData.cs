@@ -1,5 +1,4 @@
-﻿using Manager;
-using Player.Data.Persistent;
+﻿using Player.Data.Persistent;
 using UnityEngine;
 using Utilities.File_System;
 
@@ -15,20 +14,8 @@ namespace Player.Data {
         [SerializeField] private int level;
         [SerializeField] private int gold;
 
-        public static PlayerData instance;
-        
         private void Awake()
         {
-            if (instance == null)
-            {
-                instance = this;
-            }
-
-            if (instance != this)
-            {
-                Destroy(gameObject);
-            }
-
             Load();
         }
 
@@ -49,7 +36,7 @@ namespace Player.Data {
 
         public void Save()
         {
-            instance.Save<PlayerData, PersistentPlayerData>(fileName, fileExtension);
+            this.Save<PlayerData, PersistentPlayerData>(fileName, fileExtension);
         }
         
         private void SetDefault()

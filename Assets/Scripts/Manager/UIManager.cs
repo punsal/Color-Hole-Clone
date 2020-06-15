@@ -1,8 +1,10 @@
-﻿using EventArguments;
+﻿using System;
+using EventArguments;
 using Player.Data;
 using TMPro;
 using UnityEngine;
 using Utilities.Publisher_Subscriber_System;
+using Zenject;
 
 namespace Manager {
     public class UIManager : MonoBehaviour
@@ -22,20 +24,30 @@ namespace Manager {
         #pragma warning disable 649
         [SerializeField] private TextMeshProUGUI textGold;
         #pragma warning restore 649
+
+        private PlayerData playerData;
         
         private Subscription<GameEventType> gameEventSubscription;
-        private Subscription<PlayerData> playerDataSubscription;
 
         private void OnEnable()
         {
             gameEventSubscription = PublisherSubscriber.Subscribe<GameEventType>(GameEventHandler);
-            playerDataSubscription = PublisherSubscriber.Subscribe<PlayerData>(PlayerDataHandler);
         }
 
         private void OnDisable()
         {
             PublisherSubscriber.Unsubscribe(gameEventSubscription);
-            PublisherSubscriber.Unsubscribe(playerDataSubscription);
+        }
+
+        private void Update()
+        {
+            PlayerDataHandler();
+        }
+
+        [Inject]
+        private void Construct(PlayerData playerData)
+        {
+            this.playerData = playerData;
         }
 
         private void GameEventHandler(GameEventType gameEventType)
@@ -57,7 +69,7 @@ namespace Manager {
             }
         }
 
-        private void PlayerDataHandler(PlayerData playerData)
+        private void PlayerDataHandler()
         {
             textCurrentLevel.text = playerData.GetLevel().ToString();
             textNextLevel.text = (playerData.GetLevel() + 1).ToString();

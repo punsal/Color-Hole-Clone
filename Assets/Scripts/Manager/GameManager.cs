@@ -3,6 +3,7 @@ using Player.Data;
 using UnityEngine;
 using UnityEngine.Events;
 using Utilities.Publisher_Subscriber_System;
+using Zenject;
 
 namespace Manager {
     public class GameManager : MonoBehaviour
@@ -24,13 +25,11 @@ namespace Manager {
         [SerializeField] private int currentGroundIndex;
 
         [SerializeField] private UnityEvent onGameStartEvent = new UnityEvent();
+
+        private PlayerData playerData;
         
         private Subscription<GameEventType> gameEventSubscription;
-
-        private void Awake()
-        {
-            //load playerdata
-        }
+        
 
         private void OnEnable()
         {
@@ -45,6 +44,12 @@ namespace Manager {
         private void OnDisable()
         {
             PublisherSubscriber.Unsubscribe(gameEventSubscription);
+        }
+
+        [Inject]
+        private void Construct(PlayerData playerData)
+        {
+            this.playerData = playerData;
         }
 
         public void Continue()
@@ -64,7 +69,7 @@ namespace Manager {
             switch (gameEventType)
             {
                 case GameEventType.GameStart:
-                    var level = PlayerData.instance.GetLevel();
+                    var level = playerData.GetLevel();
                     currentGround1TransformIndex = (level - 1) % ground1Transforms.Length;
                     currentGround2TransformIndex = (level - 1) % ground2Transforms.Length;
 
@@ -72,7 +77,6 @@ namespace Manager {
 
                     onGameStartEvent?.Invoke();
                     PublisherSubscriber.Publish(GameEventType.LevelStart);
-                    PublisherSubscriber.Publish(PlayerData.instance);
                     break;
                 case GameEventType.LevelStart:
                     currentGroundIndex = 1;
@@ -82,8 +86,8 @@ namespace Manager {
                     ItemCollected();
                     break;
                 case GameEventType.LevelComplete:
-                    PlayerData.instance.SetLevel(PlayerData.instance.GetLevel() + 1);
-                    PlayerData.instance.SetGold(PlayerData.instance.GetGold() + 50);
+                    playerData.SetLevel(playerData.GetLevel() + 1);
+                    playerData.SetGold(playerData.GetGold() + 50);
                     PublisherSubscriber.Publish(GameEventType.GameStart);
                     Debug.Log("Level Completed");
                     break;
