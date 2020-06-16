@@ -3,4 +3,4 @@
 
 * Unity 2019.3.15f1
 * Project uses Zenject.
-* Apk :  https://drive.google.com/file/d/1IBXjcZQN1GVyQrqSoeyGKp4N9J2xFtep/view?usp=sharing
+* Apk :  https://drive.google.com/file/d/1q-WXOxV7IR6KcwC-Ya43WC5rENxiEZz5/view?usp=sharing
