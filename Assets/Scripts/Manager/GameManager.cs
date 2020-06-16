@@ -47,6 +47,7 @@ namespace Manager {
         }
 
         [Inject]
+        // ReSharper disable once ParameterHidesMember
         private void Construct(PlayerData playerData)
         {
             this.playerData = playerData;

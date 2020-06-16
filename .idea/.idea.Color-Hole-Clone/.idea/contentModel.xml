@@ -508,6 +508,9 @@
               <e p="LinkerPooler.cs" t="Include" />
             </e>
           </e>
+          <e p="Components" t="Include">
+            <e p="PlayerMovementComponent.cs" t="Include" />
+          </e>
           <e p="EventArguments" t="Include">
             <e p="CollectedItemArgs.cs" t="Include" />
             <e p="CollectibleItemArgs.cs" t="Include" />
@@ -536,6 +539,7 @@
               <e p="PlayerData.cs" t="Include" />
             </e>
             <e p="PlayerController.cs" t="Include" />
+            <e p="PlayerMovementController.cs" t="Include" />
             <e p="Trigger" t="Include">
               <e p="CollectTrigger.cs" t="Include" />
               <e p="DisableTrigger.cs" t="Include" />
@@ -547,6 +551,9 @@
             <e p="Depth Mask.shader" t="Include" />
             <e p="Hole.shader" t="Include" />
             <e p="Item.shader" t="Include" />
+          </e>
+          <e p="Systems" t="Include">
+            <e p="MovementSystem.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
             <e p="Progression Bar" t="Include">

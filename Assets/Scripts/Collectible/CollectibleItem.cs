@@ -1,6 +1,4 @@
-﻿using System;
-using EventArguments;
-using Manager;
+﻿using EventArguments;
 using UnityEngine;
 using Utilities.Publisher_Subscriber_System;
 
